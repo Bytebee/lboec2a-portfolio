@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    
+    background-color: white;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab2_1 {
+    background-color: #a69cac;
+    width: 1400px;
+    height: 450px;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+    margin-top: 120px;
+}
+
+.lab2_2 {
+    background-color: #a69cac;
+    width: 1400px;
+    height: 450px;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.content-banner {
+    background-color: aliceblue;
+    width: 400px;
+    height: 320px;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    float: left;
+    
+}
+
+.content-banner .btn-box {
+    width: 345px;
+    height: 50px;
+    background: #002147;
+    color: white;
+    
+}
+
+.btn-box {
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn-box a {
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+
+.btn-box a:hover {
+    color: blue;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #002147;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .2s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
